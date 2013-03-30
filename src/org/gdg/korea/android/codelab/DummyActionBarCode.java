@@ -9,12 +9,12 @@ import com.actionbarsherlock.app.ActionBar;
  * if actionbarSherlock library is successfully linked. 
  */
 public class DummyActionBarCode {
-    
-    private static final String TAG = "DummyActionBarCode";
 
-    static {
-        ActionBar.LayoutParams param = new ActionBar.LayoutParams(0, 0);
-        Log.v(TAG, "ActionbarSherlock is successfuly loaded: " + param.getClass().getName());
-    }
+	private static final String TAG = "DummyActionBarCode";
+
+	static {
+		ActionBar.LayoutParams param = new ActionBar.LayoutParams(0, 0);
+		Log.v(TAG, "ActionbarSherlock is successfuly loaded: " + param.getClass().getName());
+	}
 
 }//end class

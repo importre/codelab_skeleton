@@ -9,11 +9,11 @@ import net.simonvt.menudrawer.MenuDrawer;
  * if Android Menu Drawer library is successfully linked. 
  */
 public class DummyMenuDrawerCode {
-    
-    private static final String TAG = "DummyMenuDrawerCode";
-    
-    static {
-        Log.v(TAG, "Android Menu Drawer is successfuly loaded: " + MenuDrawer.class.getName());
-    }
+
+	private static final String TAG = "DummyMenuDrawerCode";
+
+	static {
+		Log.v(TAG, "Android Menu Drawer is successfuly loaded: " + MenuDrawer.class.getName());
+	}
 
 }//end class
